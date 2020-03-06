@@ -1,0 +1,12 @@
+1) ps -e
+2) ps -fu michael(user)
+3) firefox &
+4) kill PID(3967)
+5) nohup firefox &
+6) fg
+7) top
+8) man top
+9) k PID.
+Ejercicio 2:
+El proceso no se detiene al cerrar la terminal.
+

@@ -1,0 +1,17 @@
+1) Hostname = michael-TUF-Gaming-FX505DU-TUF505DU
+2) Date = vie feb 14 07:51:38 -04 2020
+3) which cp
+4) a) find ./curso
+b) find ./ejemplos -maxdepth 1 -name *.txt
+c) find ./curso -name 'nohup*' ! -name '*.php'
+d) find ./curso -name ex04*
+e) find ~ -type f -name ".*"
+f) find . –user Michael
+g) find ./curso –group adm
+h) find ./curso -size 1M
+i) find ./curso -mtime +30 –mtime -90
+
+5) find backup/ fulano/ "*.txt"
+6) find -type f -name "*.so" -exec rm -f {} \;
+7) a)$ find . -type f -name "*.txt" -exec rm {} \;
+b) ind /curso/* -type d -exec chmod 775 '{}' \;
